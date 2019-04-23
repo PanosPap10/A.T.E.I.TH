@@ -28,10 +28,11 @@ relation(bottomleft(S1, S2), bottomright(S1, S2), lrmirror).
 relation(topright(S1, S2), topleft(S1, S2), lrmirror).
 relation(bottomright(S1, S2), bottomleft(S1, S2), lrmirror).
 
-relation(topleft(S1, S2), bottomleft(S1, S2), tbmirror).
-relation(topright(S1, S2), bottomright(S1, S2), tbmirror).
-relation(topright(S1, S2), bottomright(S1, S2), tbmirror).
-relation(topleft(S1, S2), bottomleft(S1, S2), tbmirror).
+
+relation(topleft(S1,S2),bottomleft(S1,S2),tbmirror).
+relation(topright(S1,S2),bottomright(S1,S2),tbmirror).
+relation(bottomleft(S1,S2),topleft(S1,S2),tbmirror).
+relation(bottomright(S1,S2),topright(S1,S2),tbmirror).
 
 relation(topleft(S1, S2), bottomright(S1, S2), diagmirror).
 relation(topright(S1, S2), bottomleft(S1, S2), diagmirror).
